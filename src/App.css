@@ -1,0 +1,353 @@
+@font-face {
+  font-family: nav;
+  src: url(./asset/font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: judul;
+  src: url(./asset/font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: popinSemiBold;
+  src: url(./asset/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: med;
+  src: url(./asset/font/Poppins-Medium.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.fontReg{
+  font-family: nav;
+}
+.fontBold{
+  font-family: judul;
+}
+.fontSemi{
+  font-family: popinSemiBold;
+}
+.fontMed{
+  font-family: med;
+}
+.text {
+  font-family: nav;
+  text-decoration: none;
+  color: white;
+}
+
+.container1 {
+  width: 100%;
+  height: 710px;
+  background: rgb(73, 35, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 35, 180, 1) 0%,
+    rgba(232, 120, 207, 1) 100%
+  );
+  border-bottom-right-radius: 200px;
+}
+.textdecoration{
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 104px;
+}
+
+.logo {
+  margin-top: 38px;
+  margin-left: 50px;
+}
+.menu {
+  display: flex;
+  height: 23px;
+  width: 356px;
+  margin-left: 260px;
+  margin-top: 35px;
+  z-index: 1;
+}
+.nav-text {
+  margin-left: 17px;
+  text-decoration: none;
+}
+.ujung {
+  height: 23px;
+  width: 256px;
+  margin-top: 35px;
+  margin-left: 200px;
+  z-index: 1;
+}
+.component {
+  display: grid;
+}
+.judul {
+  font-size: 50px;
+  font-family: judul;
+  color: #fff;
+  margin-left: 55px;
+  margin-top: 45px;
+}
+.desc {
+  display: block;
+  width: 35%;
+  margin-left: 55px;
+}
+.button1 {
+  height: 44px;
+  width: 172px;
+  border-radius: 12px;
+  background-color: #ff00c7;
+  border-color: #ff00c7;
+  cursor: pointer;
+}
+.button2 {
+  margin-left: 25px;
+  height: 44px;
+  width: 172px;
+  border-radius: 12px;
+  background-color: transparent;
+  border-color: #fff;
+  cursor: pointer;
+}
+.gambar {
+  position: absolute;
+  margin-left: 692px;
+  margin-top: -410px;
+}
+@media  screen and (max-width: 960px) {
+  .gambar{
+    display: none;
+  }
+}
+
+
+.company {
+  position: relative;
+  width: 100%;
+  height: 173px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+.ourCompany {
+  font-family: popinSemiBold;
+  text-align: center;
+  color: #464747;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+.container2{
+  display: flex;
+  margin-top: 70px;
+  width: 90%;
+  height: 170vh;
+  padding: 63px;
+  justify-content: center;
+}
+.isiCourse{
+  background-color: #fff;
+  width: 90%;
+  height: 120vh;
+}
+.courseText{
+  font-family: popinSemiBold;
+}
+.butMenu{
+  font-size: 17px;
+  font-family: nav;
+  color: #787878;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.rat{
+  color: #5027B5;
+  font-weight: bold;
+}
+.cardContainer{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+  justify-content: space-between;
+}
+.card1{
+  width: fit-content;
+  height: 70vh;
+  box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 120ms;
+  border-radius: 12px;
+  background: #fff;
+}
+.boxName{
+  color: #666768;
+  font-size: 10px;
+  font-family: med;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  background-color: #EAEAEA;
+  margin: 15px;
+}
+.cardJudul{
+  font-family: popinSemiBold;
+  font-size: 15px;
+  margin: 15px;
+}
+.mentor{
+  font-size: 12px;
+  font-family: nav;
+  margin: 15px;
+  margin-top: -10px;
+}
+.jarak{
+  margin-top: 38px;
+}
+.star{
+  margin: 15px;
+  display: flex;
+}
+.rating{
+  margin-left: 3px;
+  margin-top: 2px;
+  font-family: popinSemiBold;
+}
+.priceBut{
+  display: flex;
+  height: fit-content;
+}
+.price{
+  color: #5027B5;
+  font-family: judul;
+  font-size: 20px;
+  margin: 15px;
+  margin-top: -10px;
+}
+.priceButton{
+  font-family: popinSemiBold;
+  font-size: 15px;
+  color: #5027B5;
+  background-color: transparent;
+  border-radius: 6px;
+  border-color: #5027B5;
+  border-width: 1.3px;
+  margin-left: 60px;
+  margin-top: -10px;
+  height: 30px;
+  width: 90px;
+}
+.showMore{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.show{
+  text-decoration: none;
+  color: #5027B5;
+}
+.container3{
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: 150vh;
+}
+.fiturAtas{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+.fiturJudul{
+  font-family: popinSemiBold;
+  font-size: 40px;
+  color: #000000;
+}
+.fiturDesc{
+  font-family: nav;
+  margin-bottom: 50px;
+  color: #666768;
+  font-size: 16px;
+}
+.fiturBawah{
+  display: flex;
+  flex-wrap: wrap;
+  width: 180vh;
+  height: 110vh;
+  justify-content: space-between;
+}
+.fiturBox{
+  padding: 15px;
+  width: 52vh;
+  height: 40vh;
+
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 360px;
+  background-color: #1B1B1B;
+}
+.footerPrimary{
+  width: 30%;
+  height: 320px;
+}
+.footerLogo{
+  font-size: 13px;
+  margin: 70px;
+  color: #FFFFFF;
+}
+.footerMenu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 270px;
+}
+.ultype{
+  list-style-type: none;
+}
+.textwhite{
+  color: #FFFFFF;
+  font-weight: 80;
+}
+.menuMargin{
+  margin: 60px;
+}
+.menuGeneral{
+  display: block;
+  width: 30%;
+  height: 270px;
+}
+.menuPolicies{
+  width: 30%;
+  height: 270px;
+}
+.menuTouch{
+  width: 40%;
+  height: 270px;
+}
+.sosmed{
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+.footerCopyright{
+  color: #BDB9B9;
+  justify-content: center;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
